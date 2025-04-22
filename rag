@@ -1,0 +1,20 @@
+curl -X POST \
+    "http://127.0.0.1:7860/api/v1/run/ab937bbc-4ac0-405b-ba1b-712a4f83a2ea?stream=false" \
+    -H 'Content-Type: application/json'\
+    -d '{"input_value": "message",
+    "output_type": "chat",
+    "input_type": "chat",
+    "tweaks": {
+  "ChatInput-J4S2A": {},
+  "ParseData-qNbVK": {},
+  "Prompt-BmJQl": {},
+  "SplitText-IUg65": {},
+  "ChatOutput-eqOE8": {},
+  "Directory-NdxdV": {},
+  "Google Generative AI Embeddings-QsQ9Z": {},
+  "Chroma-Ltz9l": {},
+  "Google Generative AI Embeddings-RQw0b": {},
+  "Chroma-Y7GDy": {},
+  "GoogleGenerativeAIModel-jJBht": {}
+}}'
+    
